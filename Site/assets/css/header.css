@@ -1,0 +1,20 @@
+header section {
+
+ justify-content: space-between;
+ /* Dividi os elementos com espaços iguais até o final da coluna*/
+
+ align-items: center;
+ /*Alinha os itens*/
+}
+
+header nav ul {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+header nav ul li a {
+ margin: 0 15px;
+ color: #39c;
+
+}
